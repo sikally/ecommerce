@@ -16,6 +16,7 @@
       <parameter key="DoctrineBundle">Doctrine\Bundle\DoctrineBundle\DoctrineBundle</parameter>
       <parameter key="SensioFrameworkExtraBundle">Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle</parameter>
       <parameter key="AppBundle">AppBundle\AppBundle</parameter>
+      <parameter key="EcommerceBundle">Ecommerce\EcommerceBundle\EcommerceBundle</parameter>
       <parameter key="DebugBundle">Symfony\Bundle\DebugBundle\DebugBundle</parameter>
       <parameter key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</parameter>
       <parameter key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</parameter>
@@ -62,6 +63,11 @@
         <parameter key="path">C:\wamp\www\ecommerce\src\AppBundle</parameter>
         <parameter key="namespace">AppBundle</parameter>
       </parameter>
+      <parameter key="EcommerceBundle" type="collection">
+        <parameter key="parent">null</parameter>
+        <parameter key="path">C:\wamp\www\ecommerce\src\Ecommerce\EcommerceBundle</parameter>
+        <parameter key="namespace">Ecommerce\EcommerceBundle</parameter>
+      </parameter>
       <parameter key="DebugBundle" type="collection">
         <parameter key="parent">null</parameter>
         <parameter key="path">C:\wamp\www\ecommerce\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle</parameter>
@@ -87,7 +93,7 @@
     <parameter key="kernel.container_class">appDevDebugProjectContainer</parameter>
     <parameter key="database_host">127.0.0.1</parameter>
     <parameter key="database_port">null</parameter>
-    <parameter key="database_name">symfony</parameter>
+    <parameter key="database_name">ecommerce</parameter>
     <parameter key="database_user">root</parameter>
     <parameter key="database_password">null</parameter>
     <parameter key="mailer_transport">smtp</parameter>
@@ -1809,7 +1815,7 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>593cabc6b5a4c8.07622534</argument>
+            <argument>593d718d60d4f7.19820404</argument>
           </service>
         </argument>
       </argument>
@@ -1938,7 +1944,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>593cabc6b5a4c8.07622534</argument>
+            <argument>593d718d60d4f7.19820404</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -2265,7 +2271,7 @@
         <argument key="driver">pdo_mysql</argument>
         <argument key="host">127.0.0.1</argument>
         <argument key="port">null</argument>
-        <argument key="dbname">symfony</argument>
+        <argument key="dbname">ecommerce</argument>
         <argument key="user">root</argument>
         <argument key="password">null</argument>
         <argument key="charset">UTF8</argument>
@@ -2848,6 +2854,10 @@
       <call method="addPath">
         <argument>C:\wamp\www\ecommerce\vendor\doctrine\doctrine-bundle/Resources/views</argument>
         <argument>Doctrine</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\wamp\www\ecommerce\src\Ecommerce\EcommerceBundle/Resources/views</argument>
+        <argument>Ecommerce</argument>
       </call>
       <call method="addPath">
         <argument>C:\wamp\www\ecommerce\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle/Resources/views</argument>

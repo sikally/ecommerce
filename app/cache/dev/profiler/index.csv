@@ -1,0 +1,7 @@
+315bf4,::1,GET,http://localhost/ecommerce/web/app_dev.php/_profiler,1497190465,,301
+b6d36d,::1,GET,http://localhost/ecommerce/web/app_dev.php/demo/hello/sikal,1497190465,12790d,200
+12790d,::1,GET,http://localhost/ecommerce/web/app_dev.php/demo/hello/sikal,1497190466,,404
+638956,::1,GET,http://localhost/ecommerce/web/app_dev.php/Acceuil,1497199006,,200
+042a0b,::1,GET,http://localhost/ecommerce/web/app_dev.php/Acceui,1497199053,b4018f,200
+b4018f,::1,GET,http://localhost/ecommerce/web/app_dev.php/Acceui,1497199053,,404
+c5840e,::1,GET,http://localhost/ecommerce/web/app_dev.php/Acceuil,1497199090,,200
