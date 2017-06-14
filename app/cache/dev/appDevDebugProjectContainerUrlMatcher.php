@@ -105,9 +105,26 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        // ecommerce_homepage
-        if ($pathinfo === '/Acceuil') {
-            return array (  '_controller' => 'Ecommerce\\EcommerceBundle\\Controller\\DefaultController::indexAction',  '_route' => 'ecommerce_homepage',);
+        // produit
+        if (rtrim($pathinfo, '/') === '') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'produit');
+            }
+
+            return array (  '_controller' => 'Ecommerce\\EcommerceBundle\\Controller\\ProduitsController::ProduitsAction',  '_route' => 'produit',);
+        }
+
+        if (0 === strpos($pathinfo, '/p')) {
+            // presentation
+            if ($pathinfo === '/produit') {
+                return array (  '_controller' => 'Ecommerce\\EcommerceBundle\\Controller\\ProduitsController::presentationAction',  '_route' => 'presentation',);
+            }
+
+            // panier
+            if ($pathinfo === '/panier') {
+                return array (  '_controller' => 'Ecommerce\\EcommerceBundle\\Controller\\PanierController::panierAction',  '_route' => 'panier',);
+            }
+
         }
 
         // homepage

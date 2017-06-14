@@ -1,3 +1,14 @@
-ecommerce_homepage:
-    path:     /Acceuil
-    defaults: { _controller: EcommerceBundle:Default:index }
+produit:
+    path:     /
+    defaults: { _controller: EcommerceBundle:Produits:Produits }
+
+
+presentation:
+    path:     /produit
+    defaults: { _controller: EcommerceBundle:Produits:presentation }
+
+
+panier:
+    path:     /panier
+    defaults: { _controller: EcommerceBundle:Panier:panier }
+
