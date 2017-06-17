@@ -14,12 +14,12 @@
                     {% for i in 0..10 %}
                     <li class="span3">
                         <div class="thumbnail">
-                            <img src="../img/holder.png" alt="" width="300" height="300">
+                            <img src="{{ asset('img/iphone.png') }}" alt="" width="300" height="300">
                             <div class="caption">
                                 <h4>Thumbnail label</h4>
                                 <p>100,00 €</p>
                                 <a class="btn btn-primary" href=" {{path ('presentation')}}">Plus d'infos</a>
-                                <a class="btn btn-success" href="panier.php">Ajouter au panier</a>
+                                <a class="btn btn-success" href="{{path ('panier')}}">Ajouter au panier</a>
                             </div>
                         </div>
                     </li>

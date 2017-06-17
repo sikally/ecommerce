@@ -15,24 +15,24 @@ class __TwigTemplate_ab6656d2b5258d10a9fda8c876d0cc849722f9616c8514b2f210b92eaef
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_39bccd4104a9e22cbd7e921b5f7ad639b0150c179e9c3bdf96d0cd3699b812ae = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_39bccd4104a9e22cbd7e921b5f7ad639b0150c179e9c3bdf96d0cd3699b812ae->enter($__internal_39bccd4104a9e22cbd7e921b5f7ad639b0150c179e9c3bdf96d0cd3699b812ae_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::modulesUsed/navigation.html.twig"));
+        $__internal_1cc65d9562c04c15e9eb903d351c472feeece7843506156187d0402dec1185e0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1cc65d9562c04c15e9eb903d351c472feeece7843506156187d0402dec1185e0->enter($__internal_1cc65d9562c04c15e9eb903d351c472feeece7843506156187d0402dec1185e0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::modulesUsed/navigation.html.twig"));
 
         // line 1
         echo "<div class=\"well\">
     <ul class=\"nav nav-list\">
         <li class=\"nav-header\">Nos produits</li>
         <li class=\"active\">
-            <a href=\"index.php\">Légumes</a>
+            <a href=\"index.php\">TV</a>
         </li>
         <li>
-            <a href=\"index.php\">Fruits</a>
+            <a href=\"index.php\">Smartphone</a>
         </li>
     </ul>
 </div>
 ";
         
-        $__internal_39bccd4104a9e22cbd7e921b5f7ad639b0150c179e9c3bdf96d0cd3699b812ae->leave($__internal_39bccd4104a9e22cbd7e921b5f7ad639b0150c179e9c3bdf96d0cd3699b812ae_prof);
+        $__internal_1cc65d9562c04c15e9eb903d351c472feeece7843506156187d0402dec1185e0->leave($__internal_1cc65d9562c04c15e9eb903d351c472feeece7843506156187d0402dec1185e0_prof);
 
     }
 
@@ -60,10 +60,10 @@ class __TwigTemplate_ab6656d2b5258d10a9fda8c876d0cc849722f9616c8514b2f210b92eaef
     <ul class=\"nav nav-list\">
         <li class=\"nav-header\">Nos produits</li>
         <li class=\"active\">
-            <a href=\"index.php\">Légumes</a>
+            <a href=\"index.php\">TV</a>
         </li>
         <li>
-            <a href=\"index.php\">Fruits</a>
+            <a href=\"index.php\">Smartphone</a>
         </li>
     </ul>
 </div>

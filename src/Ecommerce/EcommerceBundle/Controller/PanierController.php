@@ -10,4 +10,14 @@ class PanierController extends Controller
     {
         return $this->render('EcommerceBundle:Default:panier/layout/panier.html.twig');
     }
+
+    public function LivraisonAction()
+    {
+        return $this->render('EcommerceBundle:Default:panier/layout/livraison.html.twig');
+    }
+
+    public function ValidationAction()
+    {
+        return $this->render('EcommerceBundle:Default:panier/layout/validation.html.twig');
+    }
 }

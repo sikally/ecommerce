@@ -1,0 +1,5 @@
+page:
+    path:     /page/{id}
+    defaults: { _controller: PagesBundle:Pages:Page }
+
+
