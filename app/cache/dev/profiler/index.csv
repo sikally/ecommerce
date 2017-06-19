@@ -11,3 +11,7 @@ e8ed39,::1,GET,http://localhost/ecommerce/web/app_dev.php/register/,1497703144,,
 e41d31,::1,GET,http://localhost/ecommerce/web/app_dev.php/register/,1497703165,,200
 402695,::1,POST,http://localhost/ecommerce/web/app_dev.php/register/,1497703259,,302
 d658f2,::1,GET,http://localhost/ecommerce/web/app_dev.php/register/confirmed,1497703262,,200
+dee904,::1,GET,http://localhost/ecommerce/web/app_dev.php/login,1497807043,,200
+971011,::1,GET,http://localhost/ecommerce/web/app_dev.php/register,1497807064,,301
+48217d,::1,GET,http://localhost/ecommerce/web/app_dev.php/register/,1497807070,,200
+aa0942,::1,GET,http://localhost/ecommerce/web/app_dev.php/register/,1497807304,,200
