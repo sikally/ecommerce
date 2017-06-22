@@ -124,6 +124,10 @@ $catalogue = new MessageCatalogue('fr', array (
     'Account is disabled.' => 'Le compte est désactivé.',
     'Account is locked.' => 'Le compte est bloqué.',
   ),
+  'messages' => 
+  array (
+    'Symfony2 is great' => 'J\'aime Symfony2',
+  ),
   'FOSUserBundle' => 
   array (
     'group.edit.submit' => 'Mettre à jour le groupe',
@@ -182,10 +186,6 @@ L\'équipe.
     'form.password_confirmation' => 'Vérification',
     'form.new_password' => 'Nouveau mot de passe',
     'form.new_password_confirmation' => 'Vérification',
-  ),
-  'messages' => 
-  array (
-    'Symfony2 is great' => 'J\'aime Symfony2',
   ),
 ));
 
