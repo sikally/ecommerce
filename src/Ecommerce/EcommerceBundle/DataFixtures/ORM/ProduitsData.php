@@ -31,7 +31,7 @@ class ProduitsData extends AbstractFixture implements OrderedFixtureInterface
         $manager->persist($produit2);
 
         $produit3 = new Produits();
-        $produit3->setCategorie($this->getReference('categorie1'));
+        $produit3->setCategorie($this->getReference('categorie2'));
         $produit3->setDescription("Un beau televiseur LG");
         $produit3->setDisponible('1');
         $produit3->setImage($this->getReference('media5'));
@@ -41,12 +41,12 @@ class ProduitsData extends AbstractFixture implements OrderedFixtureInterface
         $manager->persist($produit3);
         
         $produit4 = new Produits();
-        $produit4->setCategorie($this->getReference('categorie1'));
+        $produit4->setCategorie($this->getReference('categorie2'));
         $produit4->setDescription("Le Top des televiseur LG");
         $produit4->setDisponible('1');
         $produit4->setImage($this->getReference('media6'));
         $produit4->setNom('LG 43UH603V');
-        $produit4->setPrix('2.99');
+        $produit4->setPrix('1000.99');
         $produit4->setTva($this->getReference('tva2'));
         $manager->persist($produit4);
         

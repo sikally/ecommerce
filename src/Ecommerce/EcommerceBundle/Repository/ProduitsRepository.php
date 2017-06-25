@@ -12,4 +12,15 @@ use Doctrine\ORM\EntityRepository;
  */
 class ProduitsRepository extends EntityRepository
 {
+    public function byCategorie($categorie)
+    {
+        $qb = $this->createQueryBuilder('u')
+                ->select('u')
+                ->where('u.categorie = :categorie')
+                ->orderBy('u.id')
+                ->setParameter('categorie', $categorie);
+
+        return $qb->getQuery()->getResult();
+
+    }
 }

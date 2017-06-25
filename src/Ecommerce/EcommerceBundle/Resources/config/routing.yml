@@ -4,7 +4,7 @@ produit:
 
 
 presentation:
-    path:     /produit
+    path:     /produit/{id}
     defaults: { _controller: EcommerceBundle:Produits:presentation }
 
 
@@ -20,4 +20,7 @@ validation:
     path:     panier/validation
     defaults: { _controller: EcommerceBundle:Panier:validation }
 
+categorieProduits:
+    path:     categorie/{categorie}
+    defaults: { _controller: EcommerceBundle:Produits:categorie }
 
